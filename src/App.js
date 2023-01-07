@@ -8,6 +8,7 @@ import RegistrationForm from './pages/Signup';
 import SignInPage from './pages/Signin';
 import ScrollToTop from './components/ScrollTop';
 import AdminDashboard from './pages/AdminDashboard';
+import AdminDashboard from './pages/AdminDashboard';
 
 const App = () => {
   return (
