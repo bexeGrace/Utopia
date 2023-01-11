@@ -10,7 +10,6 @@ const AddRoom = () => {
     images: '',
     max_people: '',
     facilities: '', 
-    
     size: '',
     description: '',
   });
