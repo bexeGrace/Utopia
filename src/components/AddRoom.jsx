@@ -40,9 +40,7 @@ const AddRoom = () => {
 
   const handleNewRoomSubmit = (e) => {
     e.preventDefault();
-    // Handle submission logic here (e.g., send data to backend)
     console.log('New Room:', newRoom);
-    // Reset the form after submission
     submitData()
 
     setNewRoom({ 
