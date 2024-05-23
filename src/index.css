@@ -1,0 +1,57 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-secondary text-primary;
+  }
+  input::placeholder {
+    @apply text-primary;
+  }
+  h1 {
+ 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary;
+}
+
+.h1 {
+  @apply text-[64px]  lg:text-[84px] leading-none;
+}
+
+
+.h2 {
+  @apply text-[50px] leading-tight;
+}
+
+.h3 {
+  @apply text-[25px];
+}
+  .btn {
+    @apply text-[15px] tracking-[3px] font-tertiary uppercase text-white flex-1 transition-all px-8 flex justify-center items-center;
+  }
+  .btn-sm {
+    @apply h-[48px];
+  }
+  .btn-lg {
+    @apply h-[60px];
+  }
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-hover;
+  }
+  .btn-secondary {
+    @apply bg-primary hover:bg-accent;
+  }
+  .btn-white {
+    @apply bg-white text-[#0a0a0a];
+  }
+}
